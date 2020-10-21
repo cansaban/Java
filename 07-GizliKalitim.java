@@ -1,8 +1,4 @@
-package unite5soru2;
-
 public class GizliKalitim {
-
-	
 
 	public static void main(String[] args) {
 		
