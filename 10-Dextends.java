@@ -2,7 +2,7 @@
 class D {
 
 	public void ekranaBas() {
-		System.out.println("d class'ý ekranabas'ý");
+		System.out.println("d class'Ã½ ekranabas'Ã½");
 	}
 	public int fiyatOgren() {
 		return 400;
@@ -12,7 +12,7 @@ class D {
 
 class E extends D{
 	public void ekranaBas() {
-		System.out.println("e class'ý ekranaBas");
+		System.out.println("e class'Ã½ ekranaBas");
 	}
 	public int fiyatOgren() {
 		
@@ -25,7 +25,7 @@ public static void main(String[] args) {
 	int fiyat=e1.fiyatOgren();
 	System.out.println("fiyat:"+fiyat);
 	e1.ekranaBas(); //yukarda mantigi anlatildi return basma yapmaz sen basacaksin!
-					//void oldugu icin ekranaBas mesela public string ekrana bas olsaydi String ekran=e1.ekranaBas()yapacaktik.Geri döüþ alan fonksiyon olduðu için bir deðiþkene atayýp sonra bastýrýlabilirdi
+					//void oldugu icin ekranaBas mesela public string ekrana bas olsaydi String ekran=e1.ekranaBas()yapacaktik.Geri donus alan fonksiyon oldugu iÃ§in bir degiskene atayip sonra bastirilabilirdi
 	
 }
 
