@@ -1,5 +1,3 @@
-package unite2soru10;
-
 public class icicefor {
 
 	public static void main(String[] args) {
