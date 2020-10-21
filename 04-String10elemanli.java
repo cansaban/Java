@@ -1,5 +1,3 @@
-package unite3soru4;
-
 public class String10elemanli {
 	
 	public static void main(String[] args) {
