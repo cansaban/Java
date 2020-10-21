@@ -9,7 +9,7 @@ class T {
 		System.out.println("Arabalar ya mazotlu ya da benzinlidir");
 	}
 	public void ArabaOzellik2() { 
-		System.out.println("arabalar hb veya sedandır");
+		System.out.println("arabalar hb veya sedandÄ±r");
 	}
 	
 	
