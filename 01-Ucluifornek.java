@@ -1,4 +1,3 @@
-package unite2soru7;
 import java.util.Scanner;
 public class ifornek {
 
