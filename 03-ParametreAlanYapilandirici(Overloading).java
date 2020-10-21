@@ -1,5 +1,3 @@
-package unite3soru2;
-
 class Bilgisayar{
 	int ram;
 	int islemcinesli;
