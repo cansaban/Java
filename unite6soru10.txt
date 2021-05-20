@@ -1,0 +1,3 @@
+Soyut(abstract) sınıflar dogrudan new() ile oluşturulamazlar.Soyut sınıfların var olma amacından birisi birleştirici rol oynamasıdır.Birleştiricilikten kasıt şöyle anlatalım.Bir sınıfın soyut olabilmesi için
+içerisinde en az 1 adet soyut yordam bulunmalıdır ve bu yordamın gövdesi bulunmaz(içi boş - iş yapmayan).Soyut sınıftan türeyen altsınıflar bu soyut yordamları kesin olarak iptal etmelidir(override).Eğer bir işlem
+değişik verilere ihtiyaç duyup aynı işi yapıyorda,bu işlem soyut sınıf içerisinde tanımlanmalıdır.

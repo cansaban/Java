@@ -1,0 +1,5 @@
+Asagiya cevrim (downcasting),yukari cevrim (upcasting) isleminin tam tersidir.Asagiya cevrim,daha genel bir tipten daha ozellikli bir tipe
+dogru gecis demektir ve tehlikelidir.Cunku cevrilmeye calisilan daha ozellikli tipe cevrim esnasinda sorun cikma riski yuksektir.Java dilinde
+asagiya cevrim yapilirken hangi tipe dogru cevrim yapilacagi acik oalrak belirtilmelidir.Fakat yukari cevrim icin boyle zorunluluk yoktur.
+Java calisma aninda nesnelerin tiplerini denetler.Eger bu islemlerde bir uyumsuzluk varsa,bunu hemen kullaniciya ClassException istisnasi gondererek bildirir.
+Nesne tiplerinin calisma aninda tanimlanmasi (RTTI:Run Time Type Identification),programi yazan icin yarar icerir.Aşağıya doğru çevrim yapılacaksa bunun hangi tipe olacağı açıkça belirtilmelidir.

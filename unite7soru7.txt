@@ -1,0 +1,6 @@
+Statik(statik) olarak tanımlanmış dahili üye sınıflar,normal dahili (statik olmayan) üye sınıflardan farklıdırlar.Bu farklılıklar şunlardır:
+	-Statik dahili üye sınıfına ait nesne oluşturmak için onu çevreleyen sınıfa ait bir nesne oluşturma zorunluluğu yoktur.
+	-Statik dahili üye sınıflar kendilerini çevreleyen sınıfa ait bağlantıyı kaybederler.
+
+Statik dahili üye sınıflar,onları çevreleyen üst sınıfa ait global alanlara ve yordamlara doğrudan ulaşım şansını kaybeder.Bunun nedeni,kendisini çevreleyen sınıf ile arasındaki bağı kopartmış
+olmasıdır.

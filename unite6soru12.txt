@@ -1,0 +1,15 @@
+Java hangi nesnenin ornek()(ornek bir yordam olsun) bu yordamın çağrılmasına çalışma(run-time) anında belirleniyorsa,bu olaya geç bağlama denilir.Bunun tam tersiye erkan bağlamadır.
+Yani,hangi nesnenin hangi yordamının çağrılacağı derleme anında bilinmesi demektir.
+Örnek olarak Otomobil sınıfı olsun ve bunlardan turemis BMW,Mercedes,Audi sınıfları olsun ve metod olusturalım
+
+public static Otomobil rastgeleSec(){
+int secim = ( (int) (Math.random() * 4) );
+Otomobil o = null;
+if(secim == 0 ) o = new Otomobil();
+if(secim == 1 ) o = new BMW();
+if(secim == 2 ) o = new Mercedes();
+if(secim == 3 ) o = new Audi();
+return o;
+}
+
+Yukarida metodda görüldüğü üzere referansa atanılacak nesneye hangisinin geleceği çalışma anında belirleniyorsa bu geç bağlama olur.Fakat direkt random durumu olmadan direkt biz Otomobil o = new BMW() deseydik bu derleme anında anlaşılabileceğinden bu erken bağlama olacakti

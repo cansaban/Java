@@ -1,0 +1,7 @@
+Statik global alanlar bir sınıfa ait olan alanlardır ve bu sınıfa ait tüm nesneler için ortak bir bellek alanında bulunurlar,ayrıca statik alanlara sadece bir kez ilk değerleri atanır.
+Global nesne alanları(statik olmayan alanlar),ilgili sınıfa ait bir nesne oluşturulduktan sonra kullanılabilecek olan alanlardır.Global statik alanlar(sınıf ait olan alanlar),ilgili sınıfa
+ait bir nesne oluşturmadan da kullanılabilirler ve bu alanlar ilgili sınıfa ait nesneler için ortaktır.Yerel değişkenler ise yordamların içerisinde tanımlanır.
+Statik olan alanların her zaman daha önce ve yalnız bir kere ilk değerini aldığı kuralını unutmadan,sorumuzun cevabına binayen statik global alanların önce değer alması hayatidir çünkü statik global alanlar 
+bu sınıfa ait tüm nesneler için ortak bir alanda bulunduğundan ilk değerinin verilmesi önemlidir.Verilmediğini düşünürsek o alanın sonradan değiştirilebilirliği ortaya çıkardı ve statikkavramının anlamı ortadan kalkardı.
+Yani static x değişleni olsun program ilk değer alma kuralını işletmeseydi program içinde bu x'e yapılabilecek müdahelelerde x'in statikliğinin önemi kalmazdı veya şöyle denilebilir buna nesneye ait global alan(static olmayan alan)
+veya yerel değişken gibi davranabilirdi ve bu da istenilen bir şey değildir.Nesneye bağımlılığıda ortadan kaldırır statik böylelikle.
