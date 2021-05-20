@@ -1,0 +1,3 @@
+Uygulamalarýmýz tek bir CPU üzerinde çalýþýyorsa,iþ parçacýklarý iþimize yarar.Bir CPU ayný ada tek bir iþ parçacýðýný çalýþtýrabilir.Ýþ parçacýklarýnýn var olma amacý
+CPU'yu etkin kullanmaktýr.Etkin kullanmak CPU'nun boþ kalmamasý,sürekli iþlem yapmasý manasýna gelir(Verimli kullanmak).Örneðin dosyadan veri okuyorsunuz bu arada CPU boþta kalýr.
+Arka planda (Dosya okunduðu esnada) CPU'ya farkli iþler vererek etkin kullanýmý saðlanabilir.Böylece çalýþma süresi kýsaltýlabilir.
