@@ -1,5 +1,6 @@
 # Java
 Java kodlama örnekleri (Java Papatyabilim kaynağı)
+
 1-1’den 1000’e kadar ilerleyen döngü içerisinde,her 100 adımda ekrana döngünün kaçıncı adımında olduğunu yazan bir uygulama geliştiriniz.(2.4)
 
 2-Üçlü if-else’in kullanılışını gösteren bir uygulama yazınız.(2.7)
